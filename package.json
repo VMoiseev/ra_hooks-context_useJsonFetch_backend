@@ -1,0 +1,28 @@
+{
+  "name": "ra_hooks-context_usejsonfetch_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VMoiseev/ra_hooks-context_useJsonFetch_backend.git"
+  },
+  "author": "VMoiseev",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^1.0.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6"
+  },
+  "bugs": {
+    "url": "https://github.com/VMoiseev/ra_hooks-context_useJsonFetch_backend/issues"
+  },
+  "homepage": "https://github.com/VMoiseev/ra_hooks-context_useJsonFetch_backend#readme"
+}
